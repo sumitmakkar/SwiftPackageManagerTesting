@@ -16,8 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
                     name: "MyLibrary",
-                    url: "https://github.com/sumitmakkar/SwiftPackageManagerTesting/releases/download/MyLib-3.0/MyLibrary.xcframework.zip",
-                    checksum: "2fca1d829ba27bc3b4b12f349c59ad4b91ea8eb210713a826b003ed0a2b2bc43"
+                    url: "https://github.com/sumitmakkar/SwiftPackageManagerTesting/releases/download/v6.0.0/MyLibrary.xcframework.zip",
+                    checksum: "9af12d75dd94b814553d4829e08e95c4c45ecf895e31b7bf08f2816edd38d8c3"
                 )
 
     ]
