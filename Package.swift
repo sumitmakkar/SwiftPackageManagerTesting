@@ -4,19 +4,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "embed-sdk",
+    name: "MyLibrary",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "embed-sdk",
-            targets: ["embed-sdk"]),
+            name: "MyLibrary",
+            targets: ["MyLibrary"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
-                    name: "embed-sdk",
-                    url: "https://github.com/AdobeDocs/express-embed-mobile-sdk-release/releases/download/embed-sdk-ios-0.0.1/embed-sdk.zip",
+                    name: "MyLibrary",
+                    url: "https://github.com/sumitmakkar/SwiftPackageManagerTesting/releases/download/MyLib-3.0/MyLibrary.xcframework.zip",
                     checksum: "2fca1d829ba27bc3b4b12f349c59ad4b91ea8eb210713a826b003ed0a2b2bc43"
                 )
 
